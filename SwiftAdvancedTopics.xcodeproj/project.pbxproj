@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ACAC977B2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC977A2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift */; };
-		ACAC977D2A571CE8003445B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC977C2A571CE8003445B3 /* ContentView.swift */; };
 		ACAC977F2A571CE9003445B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAC977E2A571CE9003445B3 /* Assets.xcassets */; };
 		ACAC97822A571CE9003445B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAC97812A571CE9003445B3 /* Preview Assets.xcassets */; };
+		ACAC97892A571D1F003445B3 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC97882A571D1F003445B3 /* ViewModifierBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACAC97772A571CE8003445B3 /* SwiftAdvancedTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdvancedTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAC977A2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdvancedTopicsApp.swift; sourceTree = "<group>"; };
-		ACAC977C2A571CE8003445B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACAC977E2A571CE9003445B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACAC97812A571CE9003445B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACAC97882A571D1F003445B3 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				ACAC977A2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift */,
-				ACAC977C2A571CE8003445B3 /* ContentView.swift */,
+				ACAC97882A571D1F003445B3 /* ViewModifierBootcamp.swift */,
 				ACAC977E2A571CE9003445B3 /* Assets.xcassets */,
 				ACAC97802A571CE9003445B3 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAC977D2A571CE8003445B3 /* ContentView.swift in Sources */,
+				ACAC97892A571D1F003445B3 /* ViewModifierBootcamp.swift in Sources */,
 				ACAC977B2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
