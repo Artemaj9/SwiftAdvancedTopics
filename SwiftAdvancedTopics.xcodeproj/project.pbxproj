@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8C1EEE2A574B0B00865902 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C1EED2A574B0B00865902 /* MatchedGeometryEffect.swift */; };
 		ACAC977B2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC977A2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift */; };
 		ACAC977F2A571CE9003445B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAC977E2A571CE9003445B3 /* Assets.xcassets */; };
 		ACAC97822A571CE9003445B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAC97812A571CE9003445B3 /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC8C1EED2A574B0B00865902 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		ACAC97772A571CE8003445B3 /* SwiftAdvancedTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdvancedTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAC977A2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdvancedTopicsApp.swift; sourceTree = "<group>"; };
 		ACAC977E2A571CE9003445B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				ACAC978C2A572D33003445B3 /* ButtonStyleBootcamp.swift */,
 				ACAC97882A571D1F003445B3 /* ViewModifierBootcamp.swift */,
 				ACAC978E2A573496003445B3 /* AnyTransitionBootcamp.swift */,
+				AC8C1EED2A574B0B00865902 /* MatchedGeometryEffect.swift */,
 				ACAC977E2A571CE9003445B3 /* Assets.xcassets */,
 				ACAC97802A571CE9003445B3 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				ACAC97892A571D1F003445B3 /* ViewModifierBootcamp.swift in Sources */,
 				ACAC978F2A573496003445B3 /* AnyTransitionBootcamp.swift in Sources */,
 				ACAC977B2A571CE8003445B3 /* SwiftAdvancedTopicsApp.swift in Sources */,
+				AC8C1EEE2A574B0B00865902 /* MatchedGeometryEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
