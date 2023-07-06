@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftAdvancedTopicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ViewModifierBootcamp()
+            AnyTransitionBootcamp()
         }
     }
 }
