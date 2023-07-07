@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct AniimateabeDataBootcamp: View {
     
     @State private var animate: Bool = false
