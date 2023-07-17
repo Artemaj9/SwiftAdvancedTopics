@@ -17,6 +17,8 @@ struct PreferenceKeyBootcamp: View {
                 
                 SecondaryScreen(text: text)
                     .navigationTitle("Navigation Title")
+                    .customTitle("New Value")
+    
                                }
             
         }
