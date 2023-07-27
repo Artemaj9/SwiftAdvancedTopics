@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4654852A725CFE0031C3FF /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4654842A725CFE0031C3FF /* AppTabBarView.swift */; };
+		AC4654872A725EB20031C3FF /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4654862A725EB20031C3FF /* CustomTabBarView.swift */; };
+		AC4654892A7266E10031C3FF /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4654882A7266E10031C3FF /* CustomTabBarContainerView.swift */; };
+		AC46548B2A726E660031C3FF /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46548A2A726E660031C3FF /* TabBarItemsPreferenceKey.swift */; };
 		AC4ED0942A589D6E00DA7771 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED0932A589D6E00DA7771 /* GenericsBootcamp.swift */; };
 		AC4ED0962A58AA7300DA7771 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED0952A58AA7300DA7771 /* ViewBuilderBootcamp.swift */; };
 		AC4ED09A2A58B7BB00DA7771 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ED0992A58B7BB00DA7771 /* PreferenceKeyBootcamp.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4654842A725CFE0031C3FF /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		AC4654862A725EB20031C3FF /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		AC4654882A7266E10031C3FF /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		AC46548A2A726E660031C3FF /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		AC4ED0932A589D6E00DA7771 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		AC4ED0952A58AA7300DA7771 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		AC4ED0992A58B7BB00DA7771 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -54,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4654832A725C040031C3FF /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC4654842A725CFE0031C3FF /* AppTabBarView.swift */,
+				AC46548A2A726E660031C3FF /* TabBarItemsPreferenceKey.swift */,
+				AC4654862A725EB20031C3FF /* CustomTabBarView.swift */,
+				AC4654882A7266E10031C3FF /* CustomTabBarContainerView.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		AC961F7F2A64BF1600BD6760 /* PreferenceKeyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +113,7 @@
 				AC4ED0932A589D6E00DA7771 /* GenericsBootcamp.swift */,
 				AC4ED0952A58AA7300DA7771 /* ViewBuilderBootcamp.swift */,
 				AC961F7F2A64BF1600BD6760 /* PreferenceKeyBootcamp */,
+				AC4654832A725C040031C3FF /* CustomTabBar */,
 				ACAC977E2A571CE9003445B3 /* Assets.xcassets */,
 				ACAC97802A571CE9003445B3 /* Preview Content */,
 			);
@@ -178,6 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC46548B2A726E660031C3FF /* TabBarItemsPreferenceKey.swift in Sources */,
+				AC4654852A725CFE0031C3FF /* AppTabBarView.swift in Sources */,
+				AC4654872A725EB20031C3FF /* CustomTabBarView.swift in Sources */,
 				ACAC978D2A572D33003445B3 /* ButtonStyleBootcamp.swift in Sources */,
 				ACAC97892A571D1F003445B3 /* ViewModifierBootcamp.swift in Sources */,
 				ACAC978F2A573496003445B3 /* AnyTransitionBootcamp.swift in Sources */,
@@ -191,6 +214,7 @@
 				AC4ED09A2A58B7BB00DA7771 /* PreferenceKeyBootcamp.swift in Sources */,
 				AC961F832A64C2E600BD6760 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				AC8C1EF62A580AE100865902 /* AniimateabeDataBootcamp.swift in Sources */,
+				AC4654892A7266E10031C3FF /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
